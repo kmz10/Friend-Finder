@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #cce0ea;
+}
+
+.questionTitle {
+	margin-top:10px;
+ display: block;
+	width: 100%;
+	
+}
+
+.questionDescripton {
+	margin-bottom: 10px !important;
+}
+
+
+.submit {
+	margin-top:15px;
+}
+
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(60, 124, 156);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-footer {
+	background-color: rgb(60, 124, 156) !important;
+	
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    background: #3c7c9c;
+    color: white;
+}
+
+.modal-header { 
+	color: white;
+    background-color: rgb(60, 124, 156);
+	
+}
+
+.modal-footer { 
+	color: white;
+    background-color: rgb(60, 124, 156);
+	
+}
+
+.communityCards {
+    margin-bottom: 10px;
+}

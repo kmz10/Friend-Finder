@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder | Survey</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/styles">
+ 
+
+</head>
+
+<body>
+
+  <div class="container">
+
+  <!-- the begining of the jumbotron -->
+   <div class="jumbotron">
+      <h1 class="text-left"><span class="fa fa-random"></span> Friend Finder | Survey</h1>
+      <hr>
+		  <div class="text-left">
+			<a href="/home"><button class="btn btn-lg btn-primary"><span class="fa fa-home"></span> Home</button></a>
+			<a href="/community"><button class="btn btn-lg btn-danger"><span class="fa fa-user"></span> Community</button></a>
+		  </div>
+    </div>
+    
+    <!-- beginig of the row that will hold the two columns -->
+    <div class="row">
+     
+     <!-- the survey container -->
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-header">
+           <h3>About You</h3>
+          </div>
+          <div class="card-body">
+				<label class="questionDescripton" for="name">Name (Required)</label>
+				<input type="text" id="name" class="form-control" required="">
+			    <label class="questionDescripton" for="photo">Link to Photo Image (Required)</label>
+
+    			<input type="text" id="photo" class="form-control" required="">
+
+
+    <!-- begining of form -->
+     <form class="form-inline">
+			  <h3 class="questionTitle"><strong><hr>Question 1</strong></h3><br/>
+				  <label class="questionDescripton" for="q1">Your mind is always buzzing with unexplored ideas and plans.</label>
+					  <select class="custom-select" id="q1">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+					   <hr/>
+			 <h3 class="questionTitle"><strong> <hr>Question 2</strong></h3><br/>
+				  <label class="questionDescripton" for="q2">Generally speaking, you rely more on your experience than your imagination. </label>
+					  <select class="custom-select" id="q2">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+					   <hr>
+					  <h3 class="questionTitle"><strong> <hr>Question 3</strong></h3><br/>
+				  <label class="questionDescripton" for="q3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+					  <select class="custom-select" id="q3">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+			 <h3 class="questionTitle"><strong> <hr>Question 4</strong></h3><br/>
+				  <label class="questionDescripton" for="q4">You rarely do something just out of sheer curiosity.</label>
+					  <select class="custom-select" id="q4">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+					    <h3 class="questionTitle"><strong> <hr>Question 5</strong></h3><br/>
+				  <label class="questionDescripton" for="q5">People can rarely upset you.</label>
+					  <select class="custom-select" id="q5">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+			 <h3 class="questionTitle"><strong> <hr>Question 6</strong></h3><br/>
+				  <label class="questionDescripton" for="q6">It is often difficult for you to relate to other people’s feelings. </label>
+					  <select class="custom-select" id="q6">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+					  <h3 class="questionTitle"><strong> <hr>Question 7</strong></h3><br/>
+				  <label class="questionDescripton" for="q7">In a discussion, truth should be more important than people’s sensitivities.</label>
+					  <select class="custom-select" id="q7">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+			 <h3 class="questionTitle"><strong> <hr>Question 8</strong></h3><br/>
+				  <label class="questionDescripton" for="q8">You rarely get carried away by fantasies and ideas.</label>
+					  <select class="custom-select" id="q8">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+					    <h3 class="questionTitle"><strong> <hr>Question 9</strong></h3><br/>
+				  <label class="questionDescripton" for="q9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+					  <select class="custom-select" id="q9">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+			 <h3 class="questionTitle"><strong> <hr>Question 10</strong></h3><br/>
+				  <label class="questionDescripton" for="q10">You feel more energetic after spending time with a group of people.</label>
+					  <select class="custom-select" id="q10">
+							  <option selected value=""></option>
+							  <option value="1">1 (Strongly Disagree)</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5 (Strongly Agree)</option>
+					  </select>
+  			<br>
+  				<button type="submit" class="btn btn-primary btn-lg btn-block fa fa-check-circle submit">Submit</button>
+
+          </form>    
+            
+            <!-- end of my form --> 
+          </div>
+        </div>
+      </div>
+      <!-- end of my survey col-6 -->
+      <!-- start of my placeholder -->
+      <div class="col-lg-6">
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+           <h3 id="resultTitle">A Friend Near You</h3>
+          </div>
+           <img class="card-img-top" id="matchPhoto" src="http://blogs.ubc.ca/anaprieto/files/2014/11/woman.png" alt="Card image cap">
+    <div class=" text-center">
+    <br>
+		  <h5 class="card-title" id="matchName">Sarah Murduck</h5>
+		 
+
+		<div class="card-footer">
+
+		</div>
+     </div></div></div>
+      
+      <!-- end of my placeholder div --> 
+    </div>
+  
+    <!-- survey -->
+    <hr>
+   
+    <footer class="footer">
+      <div class="container">
+        <p> <a href="/api/friends">API
+			Friends List</a></p>
+      </div>
+    </footer>
+
+
+ <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" id="modalName"></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img class="card-img-top" id="modalPhoto" src="http://blogs.ubc.ca/anaprieto/files/2014/11/woman.png">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
+
+
+
+<script type="text/javascript" >	
+	$(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    // Here we grab the form elements
+    var newFriend = {
+      name: $("#name").val().trim(),
+      photo: $("#photo").val().trim(),
+     scores: [ 
+	  $("#q1").val().trim(),
+      $("#q2").val().trim(),
+      $("#q3").val().trim(),
+      $("#q4").val().trim(),
+      $("#q5").val().trim(),
+      $("#q6").val().trim(),
+      $("#q7").val().trim(),
+      $("#q8").val().trim(),
+      $("#q9").val().trim(),
+      $("#q10").val().trim()
+ ]
+			
+    };
+
+    console.log(newFriend);
+
+    // This line is the magic. It"s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+    // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+    // depending on if a tables is available or not.
+
+    $.post("/api/friends", newFriend,
+      function(data) {
+
+        // If a table is available... tell user they are booked.
+        if (data) {
+          console.log("data is good!");
+        }
+
+        // If a table is available... tell user they on the waiting list.
+        else {
+          alert("Sorry error occured");
+        }
+
+        // Clear the form when submitting
+    
+		$("#name").val("");
+        $("#photo").val("");
+		  $("#q1").val("");
+		  $("#q2").val("");
+		  $("#q3").val("");
+		  $("#q4").val("");
+		  $("#q5").val("");
+		  $("#q6").val("");
+		  $("#q7").val("");
+		  $("#q8").val("");
+		  $("#q9").val("");
+		  $("#q10").val("");
+		
+		// hoping i can get information
+		
+		function runFriendsInfo() {
+
+    // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
+    $.ajax({ url: "/api/friends", method: "GET" })
+      .then(function(peopleData) {
+
+        // Loop through and display each of the friends in the json file. for each item I display the name and picture on a card. Using the bootstrap template. I taget the ID community list and append the card template. 
+		
+		var friendScore = 0;
+		var questionValue= 0 ;
+		var difference= 0;
+		var absDifference= 0;
+		var results = [];
+		var sum = 0;
+		var tempScore = 100;
+		var tempName = "";
+		var tempPhoto = "";
+        for (var i = 0; i < peopleData.length-1; i++) {
+
+       
+			// console loggin the 
+			console.log(peopleData[i].name);
+			console.log(peopleData[i].photo);
+			console.log(peopleData[i].scores);
+			
+			
+			 for (var m = 0; m < peopleData[i].scores.length-1; m++) {
+			console.log(newFriend.scores[m] + "My Score");
+			console.log(peopleData[i].name + " score is " + peopleData[i].scores[m] );
+				 
+				 // doing the math
+				 // I am searching for the diference between each question
+				 difference = newFriend.scores[m] - peopleData[i].scores[m];
+				 absDifference = Math.abs(difference);
+				 sum += absDifference;
+				 
+			 }
+			
+			//saving the results in an array
+		 results[i] = [peopleData[i].name, peopleData[i].photo, sum];
+			
+			// checking for the lowest value by placing it on a temp variable
+			 if(sum < tempScore) {
+					tempScore = sum;
+					tempName = peopleData[i].name;
+					tempPhoto = peopleData[i].photo;
+				 console.log( "this is  inside for loop temp" + tempScore);
+				 }
+			
+		console.log( "this is temp " + tempScore);
+        console.log(results[i]);
+		console.log(sum);
+		sum= 0;
+			
+			
+        }
+		
+		console.log("The lowest person is" + tempName + "with a score of" + tempScore + "and picture of" + tempPhoto  );
+		
+		
+		$("#resultTitle").empty().append("We have match!");
+		$("#matchName").empty().append(tempName);
+		$("#matchPhoto").attr("src", tempPhoto );
+		$("#modalName").empty().append(tempName);
+		$("#modalPhoto").attr("src", tempPhoto );
+		$("#myModal").modal();
+		
+	
+		
+      });
+  }
+		
+		runFriendsInfo();
+
+      });
+		
+
+  });
+
+</script>
